@@ -11,10 +11,14 @@ A Simple MailTo Protocol Handler Vue App
     <meta charset="UTF-8" />
     <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>vue-mailto</title>
-  </head>
+    <title>vue-mailto</titlr>
+    <link rel="stylesheet" crossorigin 
+      href="https://jafrmartins.github.io/vue-mailto/dist/assets/index-B16qIcyN.css"
+    />
+    <script type="module" crossorigin  src="https://jafrmartins.github.io/vue-mailto/dist/assets/index-BPOu8uFY.js"></script>        
+   </head>
   <body>
-    <section class="vue-mailto">
+    <div class="vue-mailto">
       <campaign value="Github.io" />
       <destination value="j.afr.martins@outlook.pt" />
       <subjects
@@ -23,7 +27,7 @@ A Simple MailTo Protocol Handler Vue App
           { "label": "General Question", "value": "general-question" }]
         '
       />
-    </section>
+    </div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
