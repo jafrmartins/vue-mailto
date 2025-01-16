@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vue-mailto</title>
+    <meta name="vuemailtosubjectdomain" value="Github.io" />
+  </head>
+  <body>
+    <section class="vue-mailto">
+      <campaign value="Github.io" />
+      <destination value="j.afr.martins@outlook.pt" />
+      <subjects
+        value='
+          [{ "label": "Request Services", "value": "request-services" },
+          { "label": "General Question", "value": "general-question" }]
+        '
+      />
+    </section>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
