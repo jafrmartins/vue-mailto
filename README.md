@@ -12,23 +12,22 @@ A Simple MailTo Protocol Handler Vue App
     <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>vue-mailto</titlr>
-    <link rel="stylesheet" crossorigin 
+    <link rel="stylesheet" crossorigin
       href="https://jafrmartins.github.io/vue-mailto/dist/assets/index-B16qIcyN.css"
     />
-    <script type="module" crossorigin  src="https://jafrmartins.github.io/vue-mailto/dist/assets/index-BPOu8uFY.js"></script>        
+    <script type="module" crossorigin  src="https://jafrmartins.github.io/vue-mailto/dist/assets/index-BPOu8uFY.js"></script>
    </head>
   <body>
-    <div class="vue-mailto">
-      <campaign value="Github.io" />
-      <destination value="j.afr.martins@outlook.pt" />
+    <section class="vue-mailto">
+      <campaign value="Prefix For Subject"></campaign>
+      <destination value="user@domain.tld"></destination>
       <subjects
-        value='
-          [{ "label": "Request Services", "value": "request-services" },
-          { "label": "General Question", "value": "general-question" }]
-        '
-      />
-    </div>
-    <script type="module" src="/src/main.js"></script>
+          value='
+          [{ "label": "Subject 1", "value": "1" },
+          { "label": "Subject 2", "value": "2" }]
+          '
+      ></subjects>
+    </section>
   </body>
 </html>
 ```
